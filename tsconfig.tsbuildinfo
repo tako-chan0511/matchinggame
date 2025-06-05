@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/shims-vue.d.ts","./src/vite-env.d.ts","./src/composables/usematchinggame.ts","./src/types/index.ts","./src/app.vue","./src/components/gamecontrols.vue","./src/components/matchingboard.vue","./src/components/matchingtile.vue"],"version":"5.8.3"}

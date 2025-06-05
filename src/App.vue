@@ -43,10 +43,10 @@ import GameControls from "@/components/GameControls.vue";
 import MatchingBoard from "@/components/MatchingBoard.vue";
 
 //
-// 1) 行数・列数を ref で管理（初期は 6×6）
+// 1) 行数・列数を ref で管理（初期は 4×4）
 //
-const rows = ref<number>(6);
-const cols = ref<number>(6);
+const rows = ref<number>(4);
+const cols = ref<number>(4);
 
 //
 // 2) useMatchingGame(rows, cols) を ref でラップして保持
@@ -112,7 +112,7 @@ function handlePeek() {
     game.value.tiles.forEach((t) => {
       if (!t.isMatched) t.isRevealed = false;
     });
-  }, 1000);
+  }, 3000);
 }
 
 /** タイルクリック時 */

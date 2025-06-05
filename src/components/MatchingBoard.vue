@@ -47,6 +47,11 @@ const moves = props.moves;
 <style scoped>
 .board-wrapper {
   margin-top: 1rem;
+  /* グリッドを縦中央に寄せたい場合は高さを指定し、以下を追加 */
+  display: flex; 
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 80vh; */
 }
 
 .board-grid {
