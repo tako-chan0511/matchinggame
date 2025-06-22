@@ -112,7 +112,7 @@ function handlePeek() {
     game.value.tiles.forEach((t) => {
       if (!t.isMatched) t.isRevealed = false;
     });
-  }, 3000);
+  }, 5000);
 }
 
 /** タイルクリック時 */
