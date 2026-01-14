@@ -2,7 +2,7 @@
 <template>
   <div id="app">
     <header class="app-header">
-      <h1>Matching Game</h1>
+      <h1>Matching Game(vue3)</h1>
     </header>
 
     <!-- 操作パネル -->
